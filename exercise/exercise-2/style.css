@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap');
+
+/* CSS Reset  */
+/* *{
+outline: red solid 1px;
+} */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    overflow: hidden;
+    text-align: left;
+    color: #1d1d1d;
+	max-width: 100%;
+    background-color: #f7f7f8;
+   
+    
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p {
+	text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+/* main-container */
+.main-container {
+  
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 4rem;
+}
+/* image-container */
+img {
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    height: 50rem;
+    width: auto;
+    filter: drop-shadow(25px 25px 0px #0074b9);
+    -webkit-filter: drop-shadow(25px 25px 0px #0074b9);
+  
+}
+/* text-container */
+.text-container {
+    margin-left: 5rem;
+   
+}
+.header {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.description {
+    font-size: 1.9rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+/* button */
+.button-container {
+    background-color: #80b9dc;
+    border: solid #1d1d1d;
+    height: 3.5rem;
+    width: 15.5rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    filter: drop-shadow(4px 4px 0px #1d1d1d);
+    -webkit-filter: drop-shadow(4px 4px 0px #1d1d1d);
+}
